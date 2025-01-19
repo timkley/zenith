@@ -28,6 +28,11 @@ class AppServiceProvider extends ServiceProvider
         );
     }
 
+    private function configureDates(): void
+    {
+        Date::use(CarbonImmutable::class);
+    }
+
     private function configureModels(): void
     {
         Model::preventSilentlyDiscardingAttributes($this->app->isLocal());
@@ -37,7 +42,9 @@ class AppServiceProvider extends ServiceProvider
 
     private function configureUrl(): void
     {
-        URL::forceScheme('https');
+        if ($this->app->isProduction()) {
+            URL::forceScheme('https');
+        }
     }
 
     private function configureGates(): void
