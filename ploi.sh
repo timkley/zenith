@@ -11,6 +11,7 @@ npm run build
 
 ## Do laravel things
 php artisan migrate --force
+php artisan cache:clear
 php artisan optimize
 php artisan queue:restart
 
