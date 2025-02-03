@@ -1,0 +1,13 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Parameter \#1 \$path of function basename expects string, string\|false given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Console/Commands/ZenithInstall.php
+
+		-
+			message: '#^Parameter \#3 \$subject of function preg_replace expects array\<float\|int\|string\>\|string, string\|false given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Console/Commands/ZenithInstall.php

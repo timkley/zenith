@@ -107,7 +107,7 @@ class ZenithInstall extends Command
     private function generateAppKey(): void
     {
         info('Checking application key...');
-        if (empty(env('APP_KEY'))) {
+        if (empty(config('app.key'))) {
             $this->call('key:generate');
         } else {
             warning('Application key already exists. Skipping.');
