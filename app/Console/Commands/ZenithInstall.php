@@ -147,7 +147,7 @@ class ZenithInstall extends Command
         $this->updateEnv('APP_URL', $url);
     }
 
-    private function updateEnv($key, $value): void
+    private function updateEnv(string $key, string $value): void
     {
         $path = base_path('.env');
 
