@@ -16,6 +16,4 @@ This starter kit installs Laravel with the following packages:
 
 ### Installation / Configuration
 
-- `cp .env.example .env`
-- `composer install`
-- `npm install`
+- `bash install.sh`
