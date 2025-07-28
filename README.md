@@ -4,7 +4,6 @@ This starter kit installs Laravel with the following packages:
 
 - [Laravel Livewire](https://livewire.laravel.com/)
 - Tailwind CSS
-- Heroicons
 
 **Dev Packages**
 - Spatie's Ray
