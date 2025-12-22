@@ -1368,16 +1368,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v12.42.0",
+            "version": "v12.43.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "509b33095564c5165366d81bbaa0afaac28abe75"
+                "reference": "195b893593a9298edee177c0844132ebaa02102f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/509b33095564c5165366d81bbaa0afaac28abe75",
-                "reference": "509b33095564c5165366d81bbaa0afaac28abe75",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/195b893593a9298edee177c0844132ebaa02102f",
+                "reference": "195b893593a9298edee177c0844132ebaa02102f",
                 "shasum": ""
             },
             "require": {
@@ -1586,7 +1586,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-12-09T15:51:23+00:00"
+            "time": "2025-12-16T18:53:08+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -1649,16 +1649,16 @@
         },
         {
             "name": "laravel/pulse",
-            "version": "v1.4.6",
+            "version": "v1.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pulse.git",
-                "reference": "d6b7de0b74376201ff35aad5ad2cfde1451f9654"
+                "reference": "7ace3d198283586f8dfaceb4dbe4045ee1affc21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pulse/zipball/d6b7de0b74376201ff35aad5ad2cfde1451f9654",
-                "reference": "d6b7de0b74376201ff35aad5ad2cfde1451f9654",
+                "url": "https://api.github.com/repos/laravel/pulse/zipball/7ace3d198283586f8dfaceb4dbe4045ee1affc21",
+                "reference": "7ace3d198283586f8dfaceb4dbe4045ee1affc21",
                 "shasum": ""
             },
             "require": {
@@ -1732,7 +1732,7 @@
                 "issues": "https://github.com/laravel/pulse/issues",
                 "source": "https://github.com/laravel/pulse"
             },
-            "time": "2025-12-08T15:52:47+00:00"
+            "time": "2025-12-16T15:02:29+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -2422,16 +2422,16 @@
         },
         {
             "name": "livewire/flux",
-            "version": "v2.9.2",
+            "version": "v2.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/flux.git",
-                "reference": "6572847f70a18e7cf136bb31201d4064f5c8ade1"
+                "reference": "e7a93989788429bb6c0a908a056d22ea3a6c7975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/flux/zipball/6572847f70a18e7cf136bb31201d4064f5c8ade1",
-                "reference": "6572847f70a18e7cf136bb31201d4064f5c8ade1",
+                "url": "https://api.github.com/repos/livewire/flux/zipball/e7a93989788429bb6c0a908a056d22ea3a6c7975",
+                "reference": "e7a93989788429bb6c0a908a056d22ea3a6c7975",
                 "shasum": ""
             },
             "require": {
@@ -2439,12 +2439,12 @@
                 "illuminate/support": "^10.0|^11.0|^12.0",
                 "illuminate/view": "^10.0|^11.0|^12.0",
                 "laravel/prompts": "^0.1|^0.2|^0.3",
-                "livewire/livewire": "^3.5.19|^4.0",
+                "livewire/livewire": "^3.7.3|^4.0",
                 "php": "^8.1",
                 "symfony/console": "^6.0|^7.0"
             },
             "conflict": {
-                "livewire/blaze": "<0.1.0"
+                "livewire/blaze": "<1.0.0"
             },
             "type": "library",
             "extra": {
@@ -2482,22 +2482,22 @@
             ],
             "support": {
                 "issues": "https://github.com/livewire/flux/issues",
-                "source": "https://github.com/livewire/flux/tree/v2.9.2"
+                "source": "https://github.com/livewire/flux/tree/v2.10.2"
             },
-            "time": "2025-12-04T17:09:39+00:00"
+            "time": "2025-12-19T02:11:45+00:00"
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.7.1",
+            "version": "v3.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "214da8f3a1199a88b56ab2fe901d4a607f784805"
+                "reference": "a5384df9fbd3eaf02e053bc49aabc8ace293fc1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/214da8f3a1199a88b56ab2fe901d4a607f784805",
-                "reference": "214da8f3a1199a88b56ab2fe901d4a607f784805",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/a5384df9fbd3eaf02e053bc49aabc8ace293fc1c",
+                "reference": "a5384df9fbd3eaf02e053bc49aabc8ace293fc1c",
                 "shasum": ""
             },
             "require": {
@@ -2552,7 +2552,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.7.1"
+                "source": "https://github.com/livewire/livewire/tree/v3.7.3"
             },
             "funding": [
                 {
@@ -2560,7 +2560,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-03T22:41:13+00:00"
+            "time": "2025-12-19T02:00:29+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2837,16 +2837,16 @@
         },
         {
             "name": "nette/utils",
-            "version": "v4.1.0",
+            "version": "v4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "fa1f0b8261ed150447979eb22e373b7b7ad5a8e0"
+                "reference": "b8334e6a9bd645c6b7662b527c163f4a7eb0cbde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/fa1f0b8261ed150447979eb22e373b7b7ad5a8e0",
-                "reference": "fa1f0b8261ed150447979eb22e373b7b7ad5a8e0",
+                "url": "https://api.github.com/repos/nette/utils/zipball/b8334e6a9bd645c6b7662b527c163f4a7eb0cbde",
+                "reference": "b8334e6a9bd645c6b7662b527c163f4a7eb0cbde",
                 "shasum": ""
             },
             "require": {
@@ -2920,9 +2920,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.1.0"
+                "source": "https://github.com/nette/utils/tree/v4.1.1"
             },
-            "time": "2025-12-01T17:49:23+00:00"
+            "time": "2025-12-22T12:06:15+00:00"
         },
         {
             "name": "nikic/php-parser",
