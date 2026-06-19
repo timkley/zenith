@@ -6,6 +6,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Process;
 
 use function Laravel\Prompts\confirm;
 use function Laravel\Prompts\info;
@@ -34,7 +35,7 @@ class ZenithInstall extends Command
         // Run npm install
         if (! File::exists('node_modules')) {
             info('Running npm install...');
-            exec('npm install');
+            $this->runProcess('npm install', 300);
         } else {
             warning('Node modules already exist. Skipping npm install.');
         }
@@ -72,14 +73,21 @@ class ZenithInstall extends Command
         if ($this->initializeGit) {
             info('Initializing fresh Git repository...');
 
-            exec('git init');
+            $this->runProcess('git init');
 
             // Create initial commit with everything
-            exec('git add .');
-            exec('git commit -m "Initial commit"');
+            $this->runProcess('git add .');
+            $this->runProcess('git commit -m "Initial commit"');
 
             info('Git repository initialized with initial commit.');
         }
+    }
+
+    private function runProcess(string $command, int $timeout = 60): void
+    {
+        Process::path(base_path())
+            ->timeout($timeout)
+            ->run($command);
     }
 
     private function setupEnvFile(): void
